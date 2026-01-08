@@ -1,6 +1,7 @@
-package aulas_java_Iniciando;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 import java.util.Locale;
 import java.util.Scanner;
+
 public class Exercicio_Condicionais7 {
     public static void main(String[] args) {
         /* Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas

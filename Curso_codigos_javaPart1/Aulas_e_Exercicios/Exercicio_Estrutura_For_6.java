@@ -1,4 +1,4 @@
-package aulas_java_Iniciando;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 
 import java.util.Scanner;
 

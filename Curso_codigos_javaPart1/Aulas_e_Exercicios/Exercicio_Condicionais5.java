@@ -1,6 +1,7 @@
-package aulas_java_Iniciando;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 import java.util.Scanner;
 import java.util.Locale;
+
 public class Exercicio_Condicionais5 {
     public static void main(String[] args) {
         /* Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A

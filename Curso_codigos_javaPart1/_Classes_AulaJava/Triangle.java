@@ -1,4 +1,4 @@
-package aulas__java_meio._Classes_AulaJava;
+package Curso_codigos_javaPart1._Classes_AulaJava;
 
 public class Triangle{ /*criando uma classe para ser usada posteriormente e optimizar o exercicio da area do triangul. */
 

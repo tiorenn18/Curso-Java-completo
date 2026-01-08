@@ -1,8 +1,8 @@
-package aulas__java_meio;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
-import aulas__java_meio._Classes_AulaJava.Student;
+import Curso_codigos_javaPart1._Classes_AulaJava.Student;
 
 public class Exercicio3_Student_ {
     public static void main(String[] args) {

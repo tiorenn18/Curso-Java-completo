@@ -1,14 +1,14 @@
-package aulas__java_meio;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 
 import java.util.Scanner;
-import aulas__java_meio._Classes_AulaJava.MaisVelho;
+
+import Curso_codigos_javaPart1._Classes_AulaJava.MaisVelho;
 
 public class Exercicio_fixacao_vetor10 {
     public static void main(String[] args) {
         /*Fazer um programa para ler um conjunto de nomes de pessoas e suas respectivas idades. Os nomes
         devem ser armazenados em um vetor, e as idades em um outro vetor. Depois, mostrar na tela o nome
         da pessoa mais velha. */
-
         Scanner sc = new Scanner(System.in);
         int n,maior; 
         String NomeDoMaior;

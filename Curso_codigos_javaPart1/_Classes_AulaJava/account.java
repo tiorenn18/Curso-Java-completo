@@ -1,4 +1,4 @@
-package aulas__java_meio._Classes_AulaJava;
+package Curso_codigos_javaPart1._Classes_AulaJava;
 
 public class account{
     private int Number;

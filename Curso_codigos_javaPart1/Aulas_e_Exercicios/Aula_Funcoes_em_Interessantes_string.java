@@ -1,4 +1,4 @@
-package aulas_java_Iniciando;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 
 public class Aula_Funcoes_em_Interessantes_string {
     public static void main(String[] args) {

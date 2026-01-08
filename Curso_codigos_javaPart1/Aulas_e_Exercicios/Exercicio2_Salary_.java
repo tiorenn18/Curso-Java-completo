@@ -1,8 +1,8 @@
-package aulas__java_meio;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 
-import aulas__java_meio._Classes_AulaJava.Salary;
 import java.util.Locale;
 import java.util.Scanner;
+import Curso_codigos_javaPart1._Classes_AulaJava.Salary;
 
 public class Exercicio2_Salary_ {
     public static void main(String[] args) {

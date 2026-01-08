@@ -1,4 +1,4 @@
-package aulas_java;
+package Aulas_e_Exercicios;
 
 import java.time.Duration;
 import java.time.Instant;

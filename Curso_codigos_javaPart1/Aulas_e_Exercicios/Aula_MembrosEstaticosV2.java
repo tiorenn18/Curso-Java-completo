@@ -1,8 +1,9 @@
-package aulas__java_meio;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
-import aulas__java_meio._Classes_AulaJava.Calculator;
+
+import Curso_codigos_javaPart1._Classes_AulaJava.Calculator;
 
 public class Aula_MembrosEstaticosV2 {
     public static void main(String[] args){

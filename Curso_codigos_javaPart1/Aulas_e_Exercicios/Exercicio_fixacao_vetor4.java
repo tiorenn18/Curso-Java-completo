@@ -1,15 +1,15 @@
-package aulas__java_meio;
+package Curso_codigos_javaPart1.Aulas_e_Exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
-import aulas__java_meio._Classes_AulaJava.Alturas_vect;
+
+import Curso_codigos_javaPart1._Classes_AulaJava.Alturas_vect;
 
 public class Exercicio_fixacao_vetor4 {
     public static void main(String[] args) {
     /*Fazer um programa para ler nome, idade e altura de N pessoas, conforme exemplo. Depois, mostrar na
     tela a altura média das pessoas, e mostrar também a porcentagem de pessoas com menos de 16 anos,
     bem como os nomes dessas pessoas caso houver. */
-       
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
