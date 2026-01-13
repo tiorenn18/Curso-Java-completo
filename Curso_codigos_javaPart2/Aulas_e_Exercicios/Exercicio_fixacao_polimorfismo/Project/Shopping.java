@@ -25,7 +25,7 @@ public class Shopping {
             System.out.println("Product #" + (i+1) + "Data: ");
             System.out.print("Common, used, or Imported (c/u/i)? ");
             char r = sc.next().charAt(0);
-            if (r == 'i') {
+            if (r == 'i' || r == 'I') {
                 sc.nextLine();
 
                 System.out.print("Name: ");
@@ -37,7 +37,7 @@ public class Shopping {
                 list.add(new ImportedProduct(name, price, customsfee));
             }
 
-            else if (r == 'u') {
+            else if (r == 'u' || r == 'U') {
                 sc.nextLine();
 
                 System.out.print("Name: ");
