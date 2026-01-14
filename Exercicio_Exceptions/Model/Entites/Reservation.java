@@ -3,6 +3,7 @@ package Exercicio_Exceptions.Model.Entites;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
+import Exercicio_Exceptions.Model.Exceptions.DomainException;
 
 public class Reservation {
 
@@ -12,12 +13,10 @@ public class Reservation {
 
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-
-    public Reservation(){
-
-    }
-
     public Reservation(Integer roomNumber, Date checkin, Date checkOut) {
+        if (! checkin.before(checkOut)) {
+            throw new DomainException("Reservation dates for uptade must be future");
+        }
         this.roomNumber = roomNumber;
         this.checkIn = checkin;
         this.checkOut = checkOut;
@@ -44,7 +43,17 @@ public class Reservation {
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
-    public void updatedDates(Date checkIn, Date checkOut){
+    public void updatedDates(Date checkIn, Date checkOut) {
+        
+        Date today = new Date();
+        if (checkIn.after(today) || checkOut.after(today)) {
+            throw new  DomainException ("Reservation dates for uptade must be future.");
+        }
+    
+        if (!checkOut.after(checkIn)){
+            throw new DomainException ("Check-out date must be after Check-in date ");
+        }
+
         this.checkIn = checkIn;
         this.checkOut = checkOut;
     }
