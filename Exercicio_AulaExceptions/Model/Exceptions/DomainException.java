@@ -1,4 +1,4 @@
-package Exercicio_Exceptions.Model.Exceptions;
+package Exercicio_AulaExceptions.Model.Exceptions;
 
 public class DomainException extends RuntimeException {
 

@@ -1,9 +1,10 @@
-package Exercicio_Exceptions.Model.Entites;
+package Exercicio_AulaExceptions.Model.Entites;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-import Exercicio_Exceptions.Model.Exceptions.DomainException;
+
+import Exercicio_AulaExceptions.Model.Exceptions.DomainException;
 
 public class Reservation {
 

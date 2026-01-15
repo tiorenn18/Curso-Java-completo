@@ -1,11 +1,12 @@
-package Exercicio_Exceptions.Program;
+package Exercicio_AulaExceptions.Program;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
-import Exercicio_Exceptions.Model.Entites.Reservation;
-import Exercicio_Exceptions.Model.Exceptions.DomainException;
+
+import Exercicio_AulaExceptions.Model.Entites.Reservation;
+import Exercicio_AulaExceptions.Model.Exceptions.DomainException;
 
 public class program {
     public static void main(String[] args){
