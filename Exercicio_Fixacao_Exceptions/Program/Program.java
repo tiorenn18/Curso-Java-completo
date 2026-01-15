@@ -1,4 +1,4 @@
-package Exercicio_Fixacao_Exceptions;
+package Exercicio_Fixacao_Exceptions.Program;
 
 import java.util.Locale;
 import java.util.Scanner;
