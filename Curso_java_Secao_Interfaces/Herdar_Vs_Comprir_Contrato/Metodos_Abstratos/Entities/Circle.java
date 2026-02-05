@@ -1,11 +1,11 @@
 package Curso_java_Secao_Interfaces.Herdar_Vs_Comprir_Contrato.Metodos_Abstratos.Entities;
 
-import Aulas_e_Exercicios.Metodos_Abstratos.Enums.Color;
+import Curso_java_Secao_Interfaces.Herdar_Vs_Comprir_Contrato.Metodos_Abstratos.Enums.Colorr;
 
 public class Circle extends AbstractShape {
     private double radius;
 
-    public Circle(Color color, double radius) {
+    public Circle(Colorr color, double radius) {
         super(color);
         this.radius = radius;
     }

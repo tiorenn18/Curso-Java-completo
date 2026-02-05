@@ -1,6 +1,6 @@
 package Curso_java_Secao_Interfaces.Problema_Do_DIamante.models;
 
-public class ComboDevice extends Device implements Scanner, Printer {
+public class ComboDevice extends Device implements Scannner, Printer {
     public ComboDevice(String serialNumber){
         super(serialNumber);
     }

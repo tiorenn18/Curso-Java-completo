@@ -1,13 +1,13 @@
 package Curso_java_Secao_Interfaces.Herdar_Vs_Comprir_Contrato.Metodos_Abstratos.Entities;
 
-import Aulas_e_Exercicios.Metodos_Abstratos.Enums.Color;
+import Curso_java_Secao_Interfaces.Herdar_Vs_Comprir_Contrato.Metodos_Abstratos.Enums.Colorr;
 
 public class Retangle extends AbstractShape  {
     private double wight;
     private double height;
 
 
-    public Retangle(Color color, double wight, double height) {
+    public Retangle(Colorr color, double wight, double height) {
         super(color);
         this.wight = wight;
         this.height = height;

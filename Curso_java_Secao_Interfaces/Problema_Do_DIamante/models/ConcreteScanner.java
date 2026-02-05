@@ -1,6 +1,6 @@
 package Curso_java_Secao_Interfaces.Problema_Do_DIamante.models;
 
-public class ConcreteScanner extends Device implements Scanner {
+public class ConcreteScanner extends Device implements Scannner {
 
     public ConcreteScanner(String serialNumber){
         super(serialNumber);

@@ -1,20 +1,20 @@
 package Curso_java_Secao_Interfaces.Herdar_Vs_Comprir_Contrato.Metodos_Abstratos.Entities;
 
-import Aulas_e_Exercicios.Metodos_Abstratos.Enums.Color;
+import Curso_java_Secao_Interfaces.Herdar_Vs_Comprir_Contrato.Metodos_Abstratos.Enums.Colorr;
 
 public abstract class AbstractShape implements Shape {
     
-    private Color color;
+    private Colorr color;
 
-    public AbstractShape(Color color) {
+    public AbstractShape(Colorr color) {
         this.color = color;
     }
 
-    public Color getColor() {
+    public Colorr getColor() {
         return color;
     }
 
-    public void setColor(Color color) {
+    public void setColor(Colorr color) {
         this.color = color;
     }
 
