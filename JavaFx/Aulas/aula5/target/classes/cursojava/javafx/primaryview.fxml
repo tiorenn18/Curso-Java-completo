@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="400.0" maxWidth="400.0" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #BEBEBE;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cursojava.javafx.SumController">
+   <children>
+
+      <Label alignment="CENTER" contentDisplay="BOTTOM" layoutX="96.0" layoutY="21.0" prefHeight="50.0" prefWidth="211.0" style="-fx-background-color: #696969;" text="SUM MACHINE " textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="20.0" />
+         </font>
+      </Label>
+
+      <TextField fx:id="num1" alignment="CENTER" layoutX="114.0" layoutY="78.0" prefHeight="50.0" prefWidth="173.0" promptText="Digite um valor" />
+
+      <TextField fx:id="num2" alignment="CENTER" layoutX="114.0" layoutY="136.0" prefHeight="50.0" prefWidth="173.0" promptText="Digite outro valor" />
+
+      <Button fx:id="primaryButton" layoutX="154.0" layoutY="200.0" onAction="#sum" prefHeight="61.0" prefWidth="95.0" style="-fx-background-color: #696969;" text="Sum" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="20.0" />
+         </font></Button>
+     
+      <Label alignment="CENTER" contentDisplay="BOTTOM" layoutX="26.0" layoutY="308.0" prefHeight="50.0" prefWidth="95.0" style="-fx-background-color: #696969;" text="Result:" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="20.0" />
+         </font>
+      </Label>
+
+      <Label fx:id="result" alignment="CENTER" contentDisplay="BOTTOM" layoutX="131.0" layoutY="314.0" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #696969;" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="20.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>
